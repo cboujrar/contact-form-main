@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    height: 100vh;
+    background-color: hsl(148, 38%, 91%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "karla", Arial, Helvetica, sans-serif;
+    
+}
+
+.card{
+    background-color: #fff;
+    width:  800px;
+    border-radius: 20px;
+    padding: 30px;
+    color: hsl(186, 15%, 59%);
+    font-size: 16px;
+}
+.card input:hover{
+    cursor: pointer;
+}
+.card textarea:hover{
+    cursor: pointer;
+}
+
+.card .title{
+    color: hsl(187, 24%, 22%);
+    font-weight: 700;
+}
+.card .required{
+    color: hsl(169, 82%, 27%);
+    padding-left: 10px;
+}
+
+.card button{
+    background-color: hsl(169, 82%, 27%);
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.card button:hover{
+    background-color: hsl(169, 79%, 15%);
+    color: #fff;
+}
+.card .row{
+    margin-top: 20px;
+}
+.card .form-check-label{
+    color: hsl(186, 15%, 59%);
+}
+.query .form-check-input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    border: 2px solid hsl(148, 38%, 91%); 
+    background-color: transparent;
+    appearance: none; 
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-check-input[type="checkbox"]:checked {
+    background-color: hsl(169, 82%, 27%);  
+    border-color: hsl(169, 82%, 27%);
+  }
+
+
